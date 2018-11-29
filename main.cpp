@@ -12,7 +12,7 @@ using namespace std;
  */
 
 int main() {
-    cout << " Welcome to the official Chantz Anderson Pathfinder dice roller";
+    cout << " Welcome to the official Chantz Anderson Pathfinder dice roller \n";
     cout << " Please enter the particular die you need to roll (number only. ex: 4, 6, 8, 12, etc.) ";
         int dice_sides;
     cin >> dice_sides;
