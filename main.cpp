@@ -13,11 +13,13 @@ using namespace std;
 
 int main() {
     cout << " Welcome to the official Chantz Anderson Pathfinder dice roller \n";
-    cout << " Please enter the particular die you need to roll (number only. ex: 4, 6, 8, 12, etc.) ";
+    cout << " Please enter the particular die you need to roll (number only. 4, 6, 8, 10, 12, 20.) ";
         int dice_sides;
+        int totalizer;
+        string totalizer_decision; 
     cin >> dice_sides;
 if (dice_sides != 4&& dice_sides != 6&& dice_sides != 8&& dice_sides != 10&& dice_sides != 12&& dice_sides != 20){
-    cout << " Input error. " << dice_sides << " is invalid. Please run program again. ";
+    cout << " Input error. " << dice_sides << " is invalid. Please please try again. ";
     exit (EXIT_FAILURE);
 }
 
@@ -90,11 +92,15 @@ if (dice_sides == 20){
         random_twenty = rand() % no_of_numbers_twenty + first_number;
         cout << random_twenty << "\n";
     }
+/*        cout << "Would you like to total the dice rolls?(Y/N)";
+        cin >> totalizer_decision;
+    if (totalizer_decision == "Y"){
+       totalizer
+        cout << totalizer;
+    }
 }
-
-
-
+*/
     
-    
+}
     return 0;
 }
