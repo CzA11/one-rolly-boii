@@ -8,7 +8,6 @@ using namespace std;
  * 2. Have user enter die ("How many sides for this roll?") 
  * 3. How many rolls for this die
  * 4. Display the result
- * 
  */
 
 int main() {
