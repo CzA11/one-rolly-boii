@@ -35,7 +35,7 @@ if (dice_sides != 4&& dice_sides != 6&& dice_sides != 8&& dice_sides != 10&& dic
     int random_four  = rand() % no_of_numbers_four + first_number;
     cout << random_four << "\n";
     
-if (dice_sides == 4){
+else if (dice_sides == 4){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_four = rand() % no_of_numbers_four + first_number;
         cout << random_four << "\n";
@@ -46,7 +46,7 @@ if (dice_sides == 4){
     int no_of_numbers_six (6); //# of max possibilities
     int random_six = rand() % no_of_numbers_six + first_number; //0 Max random integer
     
-if (dice_sides == 6){
+else if (dice_sides == 6){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_six = rand() % no_of_numbers_six + first_number;
         cout << random_six << "\n";
@@ -56,7 +56,7 @@ if (dice_sides == 6){
     int no_of_numbers_eight (8); //# of max possibilities
     int random_eight = rand() % no_of_numbers_eight + first_number; //0 Max random integer
     
-if (dice_sides == 8){
+else if (dice_sides == 8){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_eight = rand() % no_of_numbers_eight + first_number;
         cout << random_eight << "\n";
@@ -66,7 +66,7 @@ if (dice_sides == 8){
     int no_of_numbers_ten (10); //# of max possibilities
     int random_ten = rand() % no_of_numbers_ten + first_number; //0 Max random integer
     
-if (dice_sides == 10){
+else if (dice_sides == 10){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_ten = rand() % no_of_numbers_ten + first_number;
         cout << random_ten << "\n";
@@ -76,7 +76,7 @@ if (dice_sides == 10){
     int no_of_numbers_twelve (12); //# of max possibilities
     int random_twelve= rand() % no_of_numbers_twelve + first_number; //0 Max random integer
     
-if (dice_sides == 12){
+else if (dice_sides == 12){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_twelve = rand() % no_of_numbers_twelve + first_number;
         cout << random_twelve << "\n";
@@ -86,7 +86,7 @@ if (dice_sides == 12){
     int no_of_numbers_twenty (20); //# of max possibilities
     int random_twenty = rand() % no_of_numbers_twenty + first_number; //0 Max random integer
     
-if (dice_sides == 20){
+else (dice_sides == 20){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_twenty = rand() % no_of_numbers_twenty + first_number;
         cout << random_twenty << "\n";
