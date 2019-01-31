@@ -86,11 +86,14 @@ else if (dice_sides == 12){
     int no_of_numbers_twenty (20); //# of max possibilities
     int random_twenty = rand() % no_of_numbers_twenty + first_number; //0 Max random integer
     
-else (dice_sides == 20){
+else if (dice_sides == 20){
     for (int i = 0; i < adjusted_rolls; ++i){
         random_twenty = rand() % no_of_numbers_twenty + first_number;
         cout << random_twenty << "\n";
-    }
+else{
+    printf ("Error in operation. Please try again.");
+    exit (EXIT_FAILURE);
+}
 /*        cout << "Would you like to total the dice rolls?(Y/N)";
         cin >> totalizer_decision;
     if (totalizer_decision == "Y"){
